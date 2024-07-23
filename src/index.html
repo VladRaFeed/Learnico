@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Metas -->
     <meta charset="UTF-8" />
+    <!-- Icon -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Learnico</title>
@@ -12,20 +14,30 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Styles -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <load ="partials/header.html" />
-
-    <section>
-      <h1>Example page title</h1>
-      <!-- Path to images as from index.html file -->
-      <img src="./img/javascript.svg" alt="" />
-    </section>
-
-    <!-- Loads the specified .html file -->
-    <load ="partials/vite-promo.html" />
-
+    <load ="partials/Header.html" />
+    <main>
+      <load ="partials/Hero.html" />
+      <load ="partials/About_Us.html" />
+      <load ="partials/Trending.html" />
+      <load ="partials/Join_Us.html" />
+      <load ="partials/Benefits.html" />
+      <load ="partials/Testimonials.html" />
+      <load ="partials/Blog.html" />
+      <load ="partials/Start_Learning_Today.html" />
+      <load ="partials/Foot_Search.html" />
+    </main>
+    <load ="partials/Footer.html" />
     <script type="module" src="./main.js"></script>
   </body>
 </html>
