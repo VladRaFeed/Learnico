@@ -5,7 +5,8 @@
 @import url(./base/common.css);
 @import url(./base/reset.css);
 /* components */
-
+@import url(./components/Container.css);
+@import url(./components/Content-title.css);
 /* layouts */
 @import url(./layouts/Header.css);
 @import url(./layouts/Hero.css);

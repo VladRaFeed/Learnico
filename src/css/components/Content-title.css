@@ -1,0 +1,15 @@
+.content-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: var(--main-title-color);
+}
+
+.content-title-second {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: var(--main-wjite-color);
+}
