@@ -24,7 +24,7 @@
     <!-- Styles -->
     
     <script type="module" crossorigin src="/learnico/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/learnico/assets/index-8cb54145.css">
+    <link rel="stylesheet" href="/learnico/assets/index-a506004e.css">
   </head>
   <body>
     ENOENT: no such file or directory, open '/home/runner/work/Learnico/Learnico/src/partials/Header.html'
@@ -139,62 +139,104 @@
   </div>
 </section>
 
-      <section>
-    <h2>The most popular courses</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.</p>
-    <ul>
-        <li>
-            <p>Beginner</p>
-            <h3>Webflow Basics</h3>
-            <p>$ 24.00 USD</p>
-            <button>Enroll Course</button>
-            <img src="#" alt="notebooks">
-        </li>
-        <li>
-            <p>Elementary</p>
-            <h3>Webflow Interactions Masterclass</h3>
-            <p>$ 55.00 USD</p>
-            <button>Enroll Course</button>
-            <img src="#" alt="beautiful-workplace">
-        </li>
-        <li>
-            <p>Beginner</p>
-            <h3>Advanced CMS and Integrations</h3>
-            <p>$ 38.00 USD</p>
-            <button>Enroll Course</button>
-            <img src="#" alt="example-of-meeting">
-        </li>
-    </ul>
+      <section class="trending">
+  <h2 class="content-title trending-title">The most popular courses</h2>
+  <p class="trending-subtitle">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius
+    enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.
+  </p>
+  <ul class="trending-list">
+    <li class="trending-list-item">
+      <div class="course-info-wrapper">
+        <span class="course-level">Beginner</span>
+        <h3 class="course-title">Webflow Basics Masterclass</h3>
+        <p class="course-price">$ 24.00 USD</p>
+      </div>
+      <button class="course-btn">Enroll Course</button>
+      <img src="../img/course1img.png" alt="notebooks" class="course-img" />
+    </li>
+    <li class="trending-list-item">
+      <div class="course-info-wrapper">
+        <span class="course-level">Elementary</span>
+        <h3 class="course-title">Webflow Interactions Masterclass</h3>
+        <p class="course-price">$ 55.00 USD</p>
+      </div>
+      <button class="course-btn">Enroll Course</button>
+      <img
+        src="../img/course2img.png"
+        alt="beautiful-workplace"
+        class="course-img"
+      />
+    </li>
+    <li class="trending-list-item">
+      <div class="course-info-wrapper">
+        <span class="course-level">Beginner</span>
+        <h3 class="course-title">Advanced CMS and Integrations</h3>
+        <p class="course-price">$ 38.00 USD</p>
+      </div>
+      <button class="course-btn">Enroll Course</button>
+      <img
+        src="../img/course3img.png"
+        alt="example-of-meeting"
+        class="course-img"
+      />
+    </li>
+  </ul>
 </section>
+
       <section>
-    <h2></h2>
-    <p></p>
-    <button></button>
-    <img src="#" alt="our-team">
-    <ul>
-        <li>
-            <svg>
-                <use></use>
-            </svg>
-            <h3>Browse our courses</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique duis cursus mi quis viverra.</p>
-        </li>
-        <li>
-            <svg>
-                <use></use>
-            </svg>
-            <h3>Purchase quickly and securely</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique duis cursus mi quis viverra.</p>
-        </li>
-        <li>
-            <svg>
-                <use></use>
-            </svg>
-            <h3>Start learning right away</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique duis cursus mi quis viverra.</p>
-        </li>
+  <div class="container">
+    <div class="join-us-wrapper">
+      <div class="join-us-text-wrapper">
+        <h2 class="content-title">
+          Join more than 17,000+ students all over the world
+        </h2>
+        <p class="join-us-subtitle">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          varius enim in eros elementum tristique. Duis cursus, mi quis viverra
+          ornare.
+        </p>
+        <button class="join-us-btn">Get started</button>
+      </div>
+      <img src="../img/our-team.jpg" alt="our-team" />
+    </div>
+    <ul class="advantages-list">
+      <li class="advantages-list-item">
+        <svg width="48" height="48">
+          <use href="../img/symbol-defs.svg#icon-team"></use>
+        </svg>
+        <h3 class="advantages-list-item-title">Browse our courses</h3>
+        <p class="advantages-list-item-subtitle">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          varius enim in eros elementum tristique duis cursus mi quis viverra.
+        </p>
+      </li>
+      <li class="advantages-list-item">
+        <svg width="48" height="48">
+          <use href="../img/symbol-defs.svg#icon-shield"></use>
+        </svg>
+        <h3 class="advantages-list-item-title">
+          Purchase quickly and securely
+        </h3>
+        <p class="advantages-list-item-subtitle">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          varius enim in eros elementum tristique duis cursus mi quis viverra.
+        </p>
+      </li>
+      <li class="advantages-list-item">
+        <svg width="48" height="48">
+          <use href="../img/symbol-defs.svg#icon-study"></use>
+        </svg>
+        <h3 class="advantages-list-item-title">Start learning right away</h3>
+        <p class="advantages-list-item-subtitle">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          varius enim in eros elementum tristique duis cursus mi quis viverra.
+        </p>
+      </li>
     </ul>
+  </div>
 </section>
+
       <section>
     <h2>Grow your knowledge from best teachers in the industry</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.</p>
