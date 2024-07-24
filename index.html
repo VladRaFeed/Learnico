@@ -24,56 +24,121 @@
     <!-- Styles -->
     
     <script type="module" crossorigin src="/learnico/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/learnico/assets/index-20b45cef.css">
+    <link rel="stylesheet" href="/learnico/assets/index-8cb54145.css">
   </head>
   <body>
     ENOENT: no such file or directory, open '/home/runner/work/Learnico/Learnico/src/partials/Header.html'
     <main>
-      <section>
-    <h1>Become an No-Code expert and find a job</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel molestie magna curabitur tincidunt nunc sit amet.</p>
-    <button>Explore Courses</button>
-    <a href="#">Watch Video</a>
-    <svg>
-        <use></use>
-    </svg>
-    <img src="#" alt="reviewers">
-    <svg>
-        <use></use>
-    </svg>
-    <p>From 3k+ reviews</p>
-    <img src="#" alt="main-img">
-    <p>Trusted by the world's best companies</p>
-</section>
-      <section>
-    <div>
-        <h2>No-code Education Platform</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
-        <button>About us</button>
-        <ul>
-            <li>
-                <img src="#" alt="example-of-working">
-                <h3>Premium courses from the industry leaders</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
-                <button>Get started</button>
-                <a href="#">Learn more</a>
-                <svg>
-                    <use></use>
-                </svg>
-            </li>
-            <li>
-                <img src="#" alt="workin-in-team">
-                <h3>Easily find the perfect course for you</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
-                <button>Get started</button>
-                <a href="">Learn more</a>
-                <svg>
-                    <use></use>
-                </svg>
-            </li>
-        </ul>
+      <section class="hero">
+  <div class="container">
+    <div class="hero-wrapper">
+      <div class="main-content-hero-container">
+        <h1 class="hero-title">Become an No-Code expert and find a job</h1>
+        <p class="hero-subtitle">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+          vel molestie magna curabitur tincidunt nunc sit amet.
+        </p>
+        <div class="hero-content-wrapper">
+          <div class="btns-hero-wrapper">
+            <button class="hero-btn">Explore Courses</button>
+            <a href="#" class="hero-link">
+              Watch Video
+              <svg width="24" height="36" class="hero-link-icon">
+                <use href="../img/symbol-defs.svg#icon-play-outline"></use>
+              </svg>
+            </a>
+          </div>
+          <div class="reviewers-wrapper">
+            <img src="../img/Frame.jpg" alt="reviewers" />
+            <div class="reviewers-feedback-wrapper">
+              <svg width="132" height="24">
+                <use href="../img/symbol-defs.svg#icon-stars"></use>
+              </svg>
+              <p class="rewievers-text">From 3k+ reviews</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="../img/Hero-image.jpg" alt="main-img" class="hero-image" />
     </div>
+    <p class="hero-subtitle second">Trusted by the world's best companies</p>
+  </div>
 </section>
+
+      <section class="about-us">
+  <div class="container">
+    <div class="about-us-wrapper">
+      <h2 class="content-title about-us-title">No-code Education Platform</h2>
+      <p class="about-us-subtitle">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+        varius enim in eros elementum tristique. Duis cursus, mi quis viverra
+        ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
+      </p>
+      <button class="about-us-btn">About us</button>
+    </div>
+    <ul class="about-us-list">
+      <li class="about-us-list-item">
+        <img
+          src="../img/example-of-working.jpg"
+          alt="example-of-working"
+          class="about-us-list-img"
+        />
+        <div class="about-us-list-item-conten-wrapper">
+          <h3 class="content-title">
+            Premium courses from the industry leaders
+          </h3>
+          <p class="about-us-list-subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            varius enim in eros elementum tristique. Duis cursus, mi quis
+            viverra ornare, eros dolor interdum nulla, ut commodo diam libero
+            vitae erat.
+          </p>
+          <div class="about-us-list-item-btns-wrapper">
+            <button class="about-us-btn about-us-list-item-btn">
+              Get started
+            </button>
+            <a href="#" class="about-us-list-link">
+              Learn more
+              <svg width="12" height="13" class="about-us-list-icon">
+                <use href="../img/symbol-defs.svg#icon-chevron_right"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </li>
+      <li class="about-us-list-item">
+        <img
+          src="../img/work-in-team.jpg"
+          alt="work in team"
+          class="about-us-list-img"
+        />
+        <div class="about-us-list-item-conten-wrapper">
+          <h3 class="content-title">
+            Premium courses from the industry leaders
+          </h3>
+          <p class="about-us-list-subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            varius enim in eros elementum tristique. Duis cursus, mi quis
+            viverra ornare, eros dolor interdum nulla, ut commodo diam libero
+            vitae erat.
+          </p>
+          <div class="about-us-list-item-btns-wrapper">
+            <button class="about-us-btn about-us-list-item-btn">
+              Get started
+            </button>
+            <a href="#" class="about-us-list-link">
+              Learn more
+              <svg width="12" height="13" class="about-us-list-icon">
+                <use href="../img/symbol-defs.svg#icon-chevron_right"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
       <section>
     <h2>The most popular courses</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.</p>
