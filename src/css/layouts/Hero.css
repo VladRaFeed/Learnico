@@ -1,5 +1,6 @@
 .hero {
-    margin-bottom: 377px;
+    padding-bottom: 377px;
+    background-color: var(--bcg-color);
 }
 
 .hero-wrapper {

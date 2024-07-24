@@ -1,0 +1,56 @@
+.join-us-wrapper {
+    background-color: var(--main-infobox-color);
+    display: flex;
+    border-radius: 24px;
+    margin-bottom: 80px;
+}
+
+.join-us-text-wrapper {
+    padding-top: 104px;
+    padding-left: 64px;
+    padding-right: 98px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.join-us-subtitle {
+    font-size: 18px;
+    line-height: 1.5;
+    color: var(--second-subtitle-color);
+}
+
+.join-us-btn {
+    line-height: 1.5;
+    color: var(--main-white-color);
+    background-color: var(--first-button-color);
+    border: 0;
+    border-radius: 8px;
+    padding: 13px 25px;
+}
+
+.advantages-list {
+    display: flex;
+    gap: 48px;
+    margin-bottom: 192px;
+}
+
+.advantages-list-item {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.advantages-list-item-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    line-height: 1.4;
+    font-weight: 400;
+    color: var(--main-title-color);
+}
+
+.advantages-list-item-subtitle {
+    line-height: 1.5;
+    color: var(--second-subtitle-color);
+}
