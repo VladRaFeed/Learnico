@@ -1,6 +1,14 @@
+.testimonials {
+  position: relative;
+}
+
 .testimonials-container {
   background-color: var(--main-infobox-color);
   border-radius: 24px;
+  position: absolute;
+  bottom: -390px;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 .testimonials-title {
@@ -51,9 +59,6 @@
   font-size: 17px;
   line-height: 1.6;
   margin-bottom: 55px;
-}
-
-.reviewer-into-text-wrapper {
 }
 
 .reviewer-name {
