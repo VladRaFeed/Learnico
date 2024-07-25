@@ -1,0 +1,69 @@
+.testimonials-container {
+  background-color: var(--main-infobox-color);
+  border-radius: 24px;
+}
+
+.testimonials-title {
+  padding-top: 108px;
+  text-align: center;
+  margin-bottom: 29px;
+}
+
+.testimonials-subtitle {
+  text-align: center;
+  max-width: 730px;
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--second-subtitle-color);
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+.reviews-list {
+  padding-left: 32px;
+  padding-right: 32px;
+  display: flex;
+  gap: 32px;
+  padding-bottom: 96px;
+}
+
+.reviews-list-item {
+  background-color: var(--main-white-color);
+  border-radius: 16px;
+  padding: 32px;
+}
+
+.review-mark {
+  margin-bottom: 33px;
+}
+
+.reviewer-info-wrapper {
+  display: flex;
+  gap: 16px;
+}
+
+.reviewer-avatar {
+  width: 48px;
+  height: 48px;
+}
+
+.review-text {
+  font-size: 17px;
+  line-height: 1.6;
+  margin-bottom: 55px;
+}
+
+.reviewer-into-text-wrapper {
+}
+
+.reviewer-name {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #111827;
+}
+
+.reviewer-position {
+  color: #6b7280;
+  line-height: 1.5;
+}
