@@ -1,0 +1,28 @@
+.footer {
+    background-color: var(--bcg-color);
+}
+
+.line {
+    display: block;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.08);
+    margin-bottom: 32px;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}   
+
+.footer-subtitle {
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--main-white-color);
+}
+
+.footer-socials-list {
+  display: flex;
+  gap: 8px;  
+}

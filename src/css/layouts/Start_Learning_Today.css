@@ -1,0 +1,44 @@
+.start-learning-today {
+    background-color: var(--bcg-color);
+}
+
+.start-learning-today-title {
+    text-align: center;
+    color: var(--main-white-color);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+.start-learning-today-subtitle {
+    max-width: 730px;
+    text-align: center;
+    color: var(--main-white-color);
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0 auto;
+    margin-bottom: 42px;
+}
+
+.start-learning-today-list {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding-bottom: 110px;
+}
+
+.start-learning-today-list-item-btn {
+    color: var(--main-white-color);
+    background-color: var(--second-button-color);
+    line-height: 1.5;
+    border: none;
+    border-radius: 8px;
+    padding: 13px 25px;
+}
+
+.start-learning-today-list-item:nth-child(2) > button {
+    background-color: var(--main-white-color);
+    color: var(--main-title-color);
+}
